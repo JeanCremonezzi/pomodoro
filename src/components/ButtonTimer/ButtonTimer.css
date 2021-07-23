@@ -1,0 +1,25 @@
+button {
+	border: 0;
+	width: 40rem;
+	height: 9rem;
+	border-radius: 10px;
+	margin-top: 1rem;
+	cursor: pointer;
+	font-size: 4.8rem;
+	text-transform: uppercase;
+	font-family: "Noto Sans JP", sans-serif;
+	font-weight: 900;
+	box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+}
+
+button.start {
+	background-color: var(--color-green);
+}
+
+button.stop {
+	background-color: var(--color-red);
+}
+
+button.resume {
+	background-color: var(--color-yellow);
+}
